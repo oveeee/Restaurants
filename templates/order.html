@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Order{% endblock title %}
+{% block main-content %}
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{% static 'IMG/banner8.jpg' %}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sultan Dine's</h5>
+              <p class="card-text">01 oct. 12:10</p>
+              <p class="card-text"><small class="text-muted">Bashmati Kacchi</small></p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary">Reorder</a>
+        </div>
+    </div>
+    <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="{% static 'IMG/banner4.jpg' %}"class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">HoLA</h5>
+              <p class="card-text">01 oct. 12:10</p>
+              <p class="card-text"><small class="text-muted">Risotto</small></p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary">Reorder</a>
+        </div>
+      </div>
+      <div class="card mb-2" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="..." class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-3">
+            <div class="card-body">
+              <h5 class="card-title">HoLA</h5>
+              <p class="card-text">01 oct. 12:10</p>
+              <p class="card-text"><small class="text-muted">Chilaquiles</small></p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary">Reorder</a>
+        </div>
+      </div>
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src"{% static 'IMG/banner8.jpg' %}" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Sultan Dine's</h5>
+              <p class="card-text">01 oct. 12:10</p>
+              <p class="card-text"><small class="text-muted">Bashmati Kacchi</small></p>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary">Reorder</a>
+        </div>
+      </div>
+      
+</div>
+
+{% endblock main-content %}

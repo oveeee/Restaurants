@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Testmonial{% endblock title %}
+{% block main-content %}
+<div class="card-group">
+    <div class="card">
+      <img src="{% static 'IMG/banner7.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Customers review</h5>
+        <p class="card-text">"I recently dined at the HoLA Restaurant in downtown Seattle and was thoroughly impressed.</p>
+
+            
+            
+            
+            
+            
+           
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'IMG/banner6.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Customers review</h5>
+        <p class="card-text">Extraordinary. Meets an elite standard by which you judge all other restaurants. The staff is always ready to help, the premises are extremely clean, the atmosphere is lovely, and the food is both delicious and beautifully presented.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="{% static 'IMG/banner4.jpg' %}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Customers review</h5>
+        <p class="card-text">Excellent. Delicious food, appealing atmosphere, helpful staff, and brilliant service.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+{% endblock main-content %}
